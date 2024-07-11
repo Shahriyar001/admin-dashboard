@@ -26,7 +26,7 @@ const Main = () => {
               <h2 className="text-xl font-bold">Dashboard</h2>
             </div>
           </div>
-          <ul className="menu bg-base-200 text-base-content min-h-full w-72 p-4">
+          <ul className="menu bg-base-200 text-base-content min-h-full w-60 p-4">
             {/* Sidebar content here */}
             <li>
               <a>Sidebar Item 1</a>

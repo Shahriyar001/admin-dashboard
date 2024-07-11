@@ -1,15 +1,15 @@
-import ChartDisplay from "./ChartDisplay";
+import Rechart from "./Rechart";
 
 const Chart = () => {
   return (
     <div>
       <div>
-        <div className="hero bg-base-200 min-h-screen">
+        <div className="hero bg-base-200">
           <div className="hero-content flex-col lg:flex-row-reverse">
-            <div className="w-2/3">
-              <ChartDisplay />
+            <div className="w-9/12">
+              <Rechart />
             </div>
-            <div className="w-1/3">
+            <div className="w-3/12">
               <h1 className="text-5xl font-bold">Box Office News!</h1>
               <p className="py-6">
                 Provident cupiditate voluptatem et in. Quaerat fugiat ut
