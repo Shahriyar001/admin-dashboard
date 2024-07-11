@@ -3,11 +3,13 @@ import Traffic from "./traffic/Traffic";
 
 const Banner = () => {
   return (
-    <div className="flex h-96 bg-base-100 m-5">
-      <div className="w-2/3">
+    <div className="lg:flex lg:h-96 bg-base-100 m-5">
+      <div className="lg:w-2/3">
         <Chart />
       </div>
-      <Traffic />
+      <div className="lg:w-1/3 mx-auto ">
+        <Traffic />
+      </div>
     </div>
   );
 };

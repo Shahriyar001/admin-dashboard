@@ -6,17 +6,21 @@ const Chart = () => {
       <div>
         <div className="hero bg-base-200">
           <div className="hero-content flex-col lg:flex-row-reverse">
-            <div className="w-9/12">
+            <div className="lg:w-9/12">
               <Rechart />
             </div>
-            <div className="w-3/12">
-              <h1 className="text-5xl font-bold">Box Office News!</h1>
-              <p className="py-6">
-                Provident cupiditate voluptatem et in. Quaerat fugiat ut
-                assumenda excepturi exercitationem quasi. In deleniti eaque aut
-                repudiandae et a id nisi.
-              </p>
-              <button className="btn btn-primary">Get Started</button>
+            <div className="lg:w-3/12">
+              <h3>Dashboard</h3>
+              <p>OverView Of last Month</p>
+              <div className="my-5">
+                <h1 className="text-5xl">$6468.96</h1>
+                <p>Current Month Earning</p>
+              </div>
+              <div className="my-5">
+                <h1 className="text-5xl">82</h1>
+                <p>Current Month Sales</p>
+              </div>
+              <button className="btn btn-primary">Last Month Summary</button>
             </div>
           </div>
         </div>
