@@ -1,5 +1,7 @@
 import State from "../pages/Dashboard/state/State";
 import logo from "../assets/logo.png";
+import { AiFillHome } from "react-icons/ai";
+import { MdWidgets } from "react-icons/md";
 
 const Main = () => {
   return (
@@ -29,10 +31,70 @@ const Main = () => {
           <ul className="menu bg-base-200 text-base-content min-h-full w-60 p-4">
             {/* Sidebar content here */}
             <li>
-              <a>Sidebar Item 1</a>
+              <div>
+                <AiFillHome className="text-white" />
+                <a>Over View</a>
+              </div>
             </li>
             <li>
-              <a>Sidebar Item 2</a>
+              <div>
+                <MdWidgets />
+                <a>Widgets</a>
+              </div>
+            </li>
+            <li>
+              <a>UI Eliments</a>
+            </li>
+            <li>
+              <a>Advanced UI</a>
+            </li>
+            <li>
+              <a>Form Element</a>
+            </li>
+            <li>
+              <a>Editors</a>
+            </li>
+            <li>
+              <a>Charts</a>
+            </li>
+            <li>
+              <a>Tables</a>
+            </li>
+            <li>
+              <a>Popups</a>
+            </li>
+            <li>
+              <a>Notifications</a>
+            </li>
+            <li>
+              <a>Icons</a>
+            </li>
+            <li>
+              <a>Maps</a>
+            </li>
+            <li>
+              <a>User Pages</a>
+            </li>
+            <li>
+              <a>Error Pages</a>
+            </li>
+            <li>
+              <a>E-Commerce</a>
+            </li>
+            <li>
+              <a>E-mail</a>
+            </li>
+            <li>
+              <a>Calendar</a>
+            </li>
+            <li>
+              <a>Todo List</a>
+            </li>
+            <li>
+              <a>Gallery</a>
+            </li>
+            <li>
+              <a>Documentation</a>
             </li>
           </ul>
         </div>
